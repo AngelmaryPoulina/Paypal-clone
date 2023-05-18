@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;;
+    
+}
+.nav-bar {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+  }
+.bar{
+    margin:0;
+    padding-top: 0;
+    
+}
+section ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    padding-top: 0;
+  }
+  
+section ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+.right {
+    display: flex;
+  }
+  
+.icon {
+    height:60px;
+    margin-left: 0;
+}  
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+}
+.visble
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+}
+.main-text{
+    padding-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(237, 238, 238);
+    background-color: rgb(24, 145, 220);
+    font-size: 35px;
+}
+.btn-0{
+    color: #0d3685;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 110px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+/* .c1{
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+} */
+.video{
+    margin:0;
+    padding: 0;
+    padding-bottom: 0px;
+}
+.business{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #02387b;
+  color: white;
+  height: 120px;
+  margin-top: 0;
+}
+.btn-1{
+    text-align: center;
+    padding: 13px;
+  border-radius: 25px;
+  width: 150px;
+  color: #0070ba;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #0070ba;
+  margin-bottom: 25px;
+}
+.text-1{
+    font-size: 25px;
+}
+.c1{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+} 
+.one{
+    width: 50%;
+}
+h2{ 
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    color: #00a8ea;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+h4{
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.btn-2{
+    text-align: center;
+    padding: 13px;
+    border-radius: 25px;
+    width: 60%;
+    color: #0070ba;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #0070ba;
+}
+#shop,#pay{
+    width: 350px;
+
+}
+
